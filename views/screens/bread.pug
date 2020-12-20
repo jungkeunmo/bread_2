@@ -1,0 +1,7 @@
+extends ../layouts/main.pug
+
+block content 
+    each data in breadList
+        h3 bread name: #{data.name}
+        h3 price: #{data.price}
+        hr 
